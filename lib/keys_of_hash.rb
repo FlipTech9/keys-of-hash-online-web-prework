@@ -5,7 +5,7 @@ class Hash
       if arguments.include?(value)
         return key
       else 
-        return arguments(value)   
+         
       end 
     end 
     
