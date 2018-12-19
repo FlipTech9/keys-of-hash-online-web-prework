@@ -4,7 +4,8 @@ class Hash
     collect {|key, value|}
     if arguments.inclue?(value)
       return key 
-    
+    else 
+      return nil 
     end 
     
   end
