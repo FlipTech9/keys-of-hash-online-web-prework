@@ -3,7 +3,7 @@ class Hash
     # code goes here
     collect.each do  |key, value|
       if arguments.include?(value)
-        return key 
+        return key.compact 
       else 
         return nil 
       end 
